@@ -2,8 +2,8 @@ import pandas as pd
 from gooey import Gooey, GooeyParser
 import datetime
 import sys
-from summarizer_wordcloud_app.function import read_text_from_file,get_summary
-from summarizer_wordcloud_app.function_wordcloud import wordcloud_generator
+from function import read_text_from_file,get_summary
+from function_wordcloud import wordcloud_generator
 
 class Unbuffered(object):
     def __init__(self, stream):
